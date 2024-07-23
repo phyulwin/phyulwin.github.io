@@ -146,3 +146,19 @@ body {
   height: 300px;
   padding: 20px 20px;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between the logos as needed */
+}
+
+.logo {
+  width: 50px; /* Set a fixed width */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+}
